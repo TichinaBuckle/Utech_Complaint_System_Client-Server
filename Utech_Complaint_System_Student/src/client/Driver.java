@@ -1,0 +1,19 @@
+/*
+Aurthors: Tichina Buckle, Khi Lewis, Aviel Reid and Shemar Williams
+*/
+
+package client;
+
+import java.io.IOException;
+
+import javax.swing.SwingUtilities;
+
+import domain.Protocol;
+
+public class Driver {
+	public static void main(String[] args) {
+	    SwingUtilities.invokeLater(() -> {
+	        new StudentAuthenticator().setVisible(true);
+	    });
+	}
+}
